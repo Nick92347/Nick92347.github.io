@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,14 +7,14 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { 
-font-family: Courier New, courier; monospace
-background-color: DarkSlateBlue;
+font-family: Courier New, courier; monospace;
+background-color: MidnightBlue;
 color: white;
 }
  img { display: block; width: 100%;  
 }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; color: white; }
+    h2 { font-size: 1.5rem; margin-bottom: 0.5rem; color: white;  }
     p { color: #555; line-height: 1.6; margin-bottom: 0.5rem; }
     nav { display: flex; gap: 1rem; }
     nav a { text-decoration: none; color: inherit; }
@@ -38,7 +38,7 @@ color: white;
     .c5 {
       display: grid;
       grid:
-        'b b a' auto
+        'b b a' auto      
         'c c a' auto
         'd d e' auto
         'f f e' auto
@@ -123,7 +123,7 @@ transform: skew(20deg);
 </head>
 <body>
 <header class="c1">
-  <h1>Really real Pretzel Company</h1>
+  <h1 class="slant-container">Really real Pretzel Company</h1>
   <nav>
     <a href="#">Home</a>
     <a href="#">About</a>
@@ -138,7 +138,7 @@ transform: skew(20deg);
       <p>We are a really real pretzel place that operates within a laser tag location in the middle of a random arcade place.</p>
     </div>
   </section>
-  <section class="scewed-element”>
+  <section style="color: white;">
     <h2 class="c6">Pretzel type 1</h2>
     <p class="c7">Salted pretzel are heated up pretzels with salt on them, they are the normal type of pretzel you are used to</p>
     <img src="placeholder.jpg" alt="" class="c8">
@@ -149,7 +149,7 @@ transform: skew(20deg);
     <img src="placeholder.jpg" alt="" class="c13">
     <p class="c14">Cheesy pretzel .These are heated up pretzel filled with cheese goodness, they are very good and healthy for you</p>
   </section>
-  <section class="c15">
+  <section class="c15" style="color: white;">
     <article class="c16">
       <img src="placeholder.jpg" alt="" class="c17">
       <h2>Special Pretzel 1</h2>
@@ -160,18 +160,18 @@ transform: skew(20deg);
       <h2>Special pretzel 2</h2>
       <p>Cotton candy pretzel. This is a pretzel that is wrapped in cotton candy and it is not in the least bit healthy and will give you a heart attack</p>
     </article>
-    <article class="c20">
+    <article class="c20" style="color: white;">
       <img src="placeholder.jpg" alt="" class="c21">
       <h2>Zebra Pretzel</h2>
       <p> Filled with a deliciously creamy caramel sauce, our zebra pretzels are a delight! Topped with chocolate and vanilla drizzle.</p>
     </article>
   </section>
-  <section class="c22">
+  <section class="c22" style="color: white;">
     <img src="placeholder.jpg" alt="" class="c23">
   </section>
 </main>
-<footer class="c24">
-  <p>Some random copyright stuff, we will sue you because we are really real.</p>
+<footer class="slant-container">
+  <p style="color: white">Some random copyright stuff, we will sue you because we are really real.</p>
 </footer>
   <script>
   (function() {
